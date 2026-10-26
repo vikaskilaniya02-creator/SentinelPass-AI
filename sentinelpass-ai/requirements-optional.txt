@@ -1,0 +1,3 @@
+# Optional extras
+argon2-cffi>=23.1   # Argon2id hasher
+scikit-learn>=1.4   # IsolationForest anomaly signal

@@ -1,0 +1,2 @@
+# Core app is standard-library only. Dashboard needs Streamlit:
+streamlit>=1.30

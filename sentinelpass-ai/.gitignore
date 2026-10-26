@@ -1,0 +1,38 @@
+# Secrets and local configuration
+
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime data (never commit databases or logs)
+
+data/*
+!data/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Generated reports
+
+reports/output/*
+!reports/output/.gitkeep
+
+# IDE and operating system files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
